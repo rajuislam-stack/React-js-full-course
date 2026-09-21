@@ -8,6 +8,8 @@ import CatFriends2 from './components/CatFriends2';
 import MyForm from './components/MyForm';
 import { useRef } from 'react';
 import Counter from './components/Counter';
+import VideoPlayer from './components/VideoPlayer';
+import CatFriendsChallenge from './components/CatFriendsChallenge';
 
 export default function App() {
   let myRef = useRef(null);
@@ -31,6 +33,10 @@ export default function App() {
       <MyForm/> <br />
 
       <Counter/> <br />
+
+      <VideoPlayer/> <br />
+
+      <CatFriendsChallenge/>
 
     </div>
   )
